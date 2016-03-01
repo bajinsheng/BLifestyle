@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="BLifestyle.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BLifestyle"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF0C98F9">
+
+    <Grid>
+        <Pivot Title="生活助手" Name="One">
+            <PivotItem Header="身份信息">
+                <StackPanel>
+                    <TextBlock Text="请输入身份证号:" FontSize="20"/>
+                    <TextBox Name="Input1" />
+                    <TextBlock Text="查询结果" FontSize="20"/>
+                    <TextBox Name="Output1" Height="335" Margin="0,0,-0.333,0" TextWrapping="Wrap"/>
+                    <Button x:ConnectionId='2' HorizontalAlignment="Stretch" Name="chaxun1"                       Content="查询"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="医院信息">
+                <StackPanel>
+                    <TextBlock Text="请输入医院名称:" FontSize="20"/>
+                    <TextBox Name="Input2" />
+                    <TextBlock Text="查询结果" FontSize="20"/>
+                    <TextBox Name="Output2" Height="335" Margin="0,0,-0.333,0" TextWrapping="Wrap" />
+                    <Button x:ConnectionId='1' HorizontalAlignment="Stretch" Name="chaxun2"                       Content="查询"/>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
+

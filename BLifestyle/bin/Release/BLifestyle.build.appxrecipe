@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BAJINSHENG-PC</Machine>
+    <WindowsUser>bajinsheng</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>16ce4b61-4099-4338-9c5a-e2a85368af28</PackageIdentityName>
+    <IntermediateOutputPath>F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\bin\Release\BLifestyle.exe">
+      <PackagePath>BLifestyle.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\bin\Release\BLifestyle.xr.xml">
+      <PackagePath>BLifestyle.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\bajinsheng\Documents\Visual Studio 2013\Projects\BLifestyle\BLifestyle\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
